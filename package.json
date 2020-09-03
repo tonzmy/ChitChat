@@ -1,0 +1,27 @@
+{
+  "name": "chitchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonzmy/ChitChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonzmy/ChitChat/issues"
+  },
+  "homepage": "https://github.com/tonzmy/ChitChat#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "electron": "^10.1.0",
+    "electron-reload": "^1.5.0"
+  }
+}
