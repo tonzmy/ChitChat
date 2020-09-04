@@ -16,6 +16,15 @@ const io = socketio(server)
 // listen on the connection event for incoming sockets and log it to the console
 io.on('connection', (socket) => {
     console.log("new connection");
+
+    socket.on('join', ({name, room}, callback) => {
+        console.log(name, room);
+        // const error = true;
+        // if (error) {
+        //     callback({error:"error"})
+        // }
+    })
+
     socket.on('disconnect', () => {
         console.log('User had left');
     })
